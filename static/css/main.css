@@ -1,6 +1,6 @@
 body{
-  margin: 0;
-  padding: 1em;
+  margin: 0 1em 0 1em;
+  
   font-family: 'Roboto', sans-serif;
   position: relative;
   
@@ -129,6 +129,30 @@ ul,li{
   font-weight: 400;
   color: white;
 }
+
+.details {
+  text-align: center;
+  background-color: #4a4aebad;
+  height: fit-content;
+  color: white;
+  padding: 1em;
+  width: fit-content;
+  margin: 3em auto;
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: .1em;
+  
+}
+
+.hide{
+  display: none;
+}
+
+.elfsight-app-213280eb-2f22-4f7b-8de7-f820059ddda2{
+  left: -20em;
+}
+
+
 
 
 
