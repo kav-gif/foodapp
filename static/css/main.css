@@ -1,9 +1,18 @@
 body{
   margin: 0 1em 0 1em;
-  
   font-family: 'Roboto', sans-serif;
   position: relative;
   
+}
+
+h2{
+  letter-spacing: .10em;
+  text-decoration: underline;
+}
+
+h3{
+  color: white;
+  letter-spacing: .05em;
 }
 
 ul,li{
@@ -137,7 +146,7 @@ ul,li{
   color: white;
   padding: 1em;
   width: fit-content;
-  margin: 3em auto;
+  margin: 2em auto 0;
   font-size: 1.5em;
   font-weight: 600;
   letter-spacing: .1em;
@@ -150,9 +159,25 @@ ul,li{
 
 .elfsight-app-213280eb-2f22-4f7b-8de7-f820059ddda2{
   left: -20em;
+  bottom: 20em;
 }
 
+.copyright{
+  color: white;
+  letter-spacing: .1em;
+}
 
+@media(max-width:1127px){
+  h2{
+    letter-spacing: 0;
+    
+  }
+  
+  h3{
+    
+    letter-spacing: 0;
+  } 
+}
 
 
 
